@@ -13,6 +13,7 @@ website/
 +-- index.html
 +-- assets/
 |   +-- capsule-hero-illustration.png
+|   +-- capsule-logo.svg
 |   +-- capsule-feed-screen.jpg
 |   +-- capsule-discover-screen.jpg
 |   +-- favicon.svg

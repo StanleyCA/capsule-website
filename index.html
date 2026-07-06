@@ -7,7 +7,7 @@
     <meta property="og:title" content="Capsule - Your wardrobe has stories">
     <meta property="og:description" content="Save outfits, discover style inspiration, and get recommendations that feel like you.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="assets/capsule-hero-illustration.png">
+    <meta property="og:image" content="assets/capsule-feed-screen.jpg">
     <title>Capsule - Your wardrobe has stories</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,11 +35,37 @@
 
     <main id="top">
         <section class="hero">
-            <img class="hero-art" src="assets/capsule-hero-illustration.png" alt="A dreamy illustrated wardrobe with floating clothing pieces and a person choosing an outfit.">
+            <div class="hero-wardrobe" aria-label="Rotating cards of clothing pieces">
+                <article class="wardrobe-card wardrobe-card-one">
+                    <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/455640/item/goods_68_455640_3x4.jpg?width=600" alt="Off-white sweatpants">
+                    <div>
+                        <span>Soft base</span>
+                        <strong>Off-white sweatpants</strong>
+                    </div>
+                </article>
+                <article class="wardrobe-card wardrobe-card-two">
+                    <img src="https://www.ayr.com/cdn/shop/files/deepend-white_PDP1_18f33e29-99a8-4570-8b34-c392a7a14ed6.jpg?crop=center&amp;height=1200&amp;v=1773873348&amp;width=900" alt="White oversized oxford shirt">
+                    <div>
+                        <span>Clean layer</span>
+                        <strong>White oxford</strong>
+                    </div>
+                </article>
+                <article class="wardrobe-card wardrobe-card-three">
+                    <img src="https://www.gap.com/webcontent/0061/391/409/cn61391409.jpg" alt="Yellow cotton V-neck T-shirt">
+                    <div>
+                        <span>Color note</span>
+                        <strong>Vintage tee</strong>
+                    </div>
+                </article>
+                <article class="wardrobe-card wardrobe-card-four">
+                    <img src="https://4tharq.com/cdn/shop/files/Amber-rust_IM_F1.jpg?v=1754638322&amp;width=1920" alt="Dusty rose fitted T-shirt">
+                    <div>
+                        <span>Soft accent</span>
+                        <strong>Rose crewneck</strong>
+                    </div>
+                </article>
+            </div>
             <div class="hero-overlay"></div>
-            <div class="hero-float hero-float-one" aria-hidden="true"></div>
-            <div class="hero-float hero-float-two" aria-hidden="true"></div>
-            <div class="hero-float hero-float-three" aria-hidden="true"></div>
             <div class="container hero-content">
                 <img class="hero-logo" src="assets/capsule-logo.svg" alt="Capsule">
                 <p class="eyebrow">A personal style story</p>
@@ -105,16 +131,27 @@
                         <p>Search curated edits, browse brands and categories, and find pieces that fit your style.</p>
                     </article>
                     <article class="screen-card">
-                        <div class="mock-screen idea-screen">
-                            <div class="screen-top">
-                                <span>Suggestion</span>
-                                <strong>Next outfit</strong>
+                        <div class="mock-screen idea-screen recommendation-screen">
+                            <div class="recommendation-top">
+                                <img src="assets/capsule-logo.svg" alt="">
+                                <span>For you</span>
                             </div>
-                            <p>Pair the lavender blazer with relaxed denim and low sneakers.</p>
-                            <div class="idea-row">
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                            <div class="recommendation-copy">
+                                <span>92% style match</span>
+                                <h3>Your next outfit</h3>
+                                <p>Soft structure, relaxed proportions, and one muted color story.</p>
+                            </div>
+                            <div class="recommendation-look" aria-hidden="true">
+                                <span class="rec-jacket"></span>
+                                <span class="rec-shirt"></span>
+                                <span class="rec-pants"></span>
+                            </div>
+                            <div class="recommendation-footer">
+                                <div>
+                                    <span>Soft tailoring</span>
+                                    <strong>3 pieces</strong>
+                                </div>
+                                <span class="save-look">Save look</span>
                             </div>
                         </div>
                         <h3>Get practical recommendations</h3>

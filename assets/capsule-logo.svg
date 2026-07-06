@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title desc">
+  <title id="title">Capsule logo</title>
+  <desc id="desc">A rounded capsule outline containing two vertical marks.</desc>
+  <g fill="none" stroke="#0b0b0b" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="35" width="240" height="90" rx="45" stroke-width="8"/>
+    <path d="M132 66v28M188 66v28" stroke-width="10"/>
+  </g>
+</svg>
